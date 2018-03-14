@@ -150,7 +150,6 @@ void adb_trace_init(char** argv) {
     // the crypto unmount of /data
     if (!get_trace_setting().empty()) {
         if (unix_isatty(STDOUT_FILENO) == 0) {
-            start_device_log();
         }
     }
 #endif

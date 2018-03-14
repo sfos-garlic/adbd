@@ -107,9 +107,7 @@
 #include "adb_utils.h"
 #include "security_log_tags.h"
 
-#ifndef _PATH_BSHELL2
-#define _PATH_BSHELL2 "/sbin/sh"
-#endif
+#define _PATH_BSHELL2 "/mrom_bin/sh"
 
 namespace {
 
