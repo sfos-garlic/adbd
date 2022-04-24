@@ -5,7 +5,7 @@
 
 LOCAL_PATH:= $(call my-dir)
 
-include $(LOCAL_PATH)/../../../core/platform_tools_tool_version.mk
+include $(LOCAL_PATH)/platform_tools_tool_version.mk
 
 adb_host_sanitize :=
 adb_target_sanitize :=
